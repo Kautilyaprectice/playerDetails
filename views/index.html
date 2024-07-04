@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Players Information</title>
+</head>
+<body>
+    <div class="mainForm">
+        <h1>Players Information</h1>
+        <form id="playerForm">
+            Name: <input type="text" name="name" placeholder="Name" id="name">
+            <br><br>
+            DOB: <input type="text" name="dob" placeholder="Date Of Birth" id="dob">
+            <br><br>
+            Photo Url: <input type="text" name="photoUrl" placeholder="Photo URL" id="photoUrl">
+            <br><br>
+            Birth Place: <input type="text" name="birthPlace" placeholder="Birth Place" id="birthPlace">
+            <br><br>
+            No Of Matches: <input type="number" name="noOfMatches" placeholder="No of Matches" id="noOfMatches">
+            <br><br>
+            Score: <input type="number" name="score" placeholder="Score" id="score">
+            <br><br>
+            Fifties: <input type="number" name="fifties" placeholder="Fifties" id="fifties">
+            <br><br>
+            Hundreds: <input type="number" name="hundreds" placeholder="Hundreds" id="hundreds">
+            <br><br>
+            wicket: <input type="number" name="wicket" placeholder="wicket" id="wicket">
+            <br><br>
+            Average: <input type="number" name="average" placeholder="Average" id="average">
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <hr>
+    <br><br>
+
+    <div class="search">
+        <form id="searchForm">
+            <input type="search" name="search" placeholder="Search" id="search">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <br><br>
+    <div id="playerDetails"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
